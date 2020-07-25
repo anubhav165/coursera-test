@@ -5,45 +5,57 @@
     width: 100%;
     
 }
+.pad{
+    padding: 10px;
+}
+#heading{
+    font-family: cursive;
+}
 #box1{
     background-color:lightgray;
+  
+    margin:10px;
+    border: 1px solid black;
 }
 #box2{
     background-color: lightgray;
+
+    margin: 10px;
+    border: 1px solid black;
 }
 #box3{
-    background-color: lightgray;
+    background-color: lightgray;   
+    margin: 10px;
+    border: 1px solid black;
 }
 #chicken{
     padding: 5px;
     background-color: red;
     float: right;
     border: 1px solid black;
-    margin-top: 5px;
-    margin-right: 5px;
+    
 }
 #beef{
      padding: 5px;
     background-color: lawngreen;
-    border: 1px sloid black;
+    border: 1px solid black;
     float: right;
-     margin-top: 5px;
-    margin-right: 5px;
+    
 }
 #sushi{
      padding: 5px;
     background-color: deepskyblue;
     float:right;
     border: 1px solid black;
-     margin-top: 5px;
-    margin-right: 5px;
+     
 }
 
-@media (min-width:1200px){
+@media (min-width:992px){
     .col-lg-1,  .col-lg-2,  .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
         float:left;
-        border: 1px solid green;
+        
         margin: 1.5%;
+        padding-bottom: 10px;
     }
    .col-lg-1 {width: 8.33%;}
 .col-lg-2 {width: 16.66%;}
@@ -58,11 +70,12 @@
 .col-lg-11 {width: 91.66%;}
 .col-lg-12 {width: 100%;}
 }
-@media (min-width: 950px) and (max-width:1199px){
+@media (min-width: 768px) and (max-width:991px){
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
        float:left;
-       border: 1px solid black;
+      
         margin: 1.5%;
+        margin-right: 0.7%;
     }
 .col-md-1 {width: 8.33%;}
 .col-md-2 {width: 16.66%;}
@@ -75,12 +88,12 @@
 .col-md-9 {width: 75%;}
 .col-md-10 {width: 83.33%;}
 .col-md-11 {width: 91.66%;}
-.col-md-12 {width: 100%;}
+.col-md-12 {width: 96.7%;}
 }
-@media (min-width: 768px) and (max-width:949px){
+@media (max-width: 767px){
   .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
        float:left;
-       border: 1px solid black;
+
       margin: 1%;
     }
 .col-xs-1 {width: 8.33%;}
